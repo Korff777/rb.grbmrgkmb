@@ -1,0 +1,105 @@
+.price {
+    color: $color-white;
+    margin: 0 0 80px;
+}
+
+.price__title {
+    font-size: 30px;
+    line-height: 34px;
+    margin: 0 0 20px;
+}
+
+.price__wrapper {
+    display: flex;
+    gap: 15px;
+}
+
+.price__card {
+    padding: 20px 20px 40px;
+    display: grid;
+    gap: 20px;
+    width: 430px;
+    background-color: $olive-gray;
+    border-radius: 30px;
+    align-content: start;
+}
+
+.price__card--right {
+    display: flex;
+    flex-direction: column;
+}
+
+.price__text {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.price__card--right .price__text {
+    text-align: center;
+}
+
+.price__container {
+    display: grid;
+    gap: 15px 10px;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 0 20px;
+}
+
+.price__container-wrapper {
+    display: grid;
+    gap: 15px 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.price__container-block {
+    display: grid;
+    gap: 15px 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.price-input {
+    display: none;
+}
+
+.price-label {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 10px 20px;
+    background-color: $black-gray;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.price-input:checked+.price-label {
+    background: $color-bright-orange;
+    border-color: $brilliant-green;
+}
+
+.price__btn:hover {
+    color: $color-white;
+    background-color: $color-bright-orange;
+}
+
+.price__btn {
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    background-color: $black-gray;
+    color: $color-black;
+    cursor: pointer;
+    user-select: none;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.price__politics {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    user-select: none;
+    margin: 0;
+}
